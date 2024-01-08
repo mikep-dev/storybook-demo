@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "stackblitz": {
-    "startCommand": "yarn storybook"
+    "startCommand": "yarn storybook --no-open"
   },
   "resolutions": {
     "jackspeak": "2.1.1"
