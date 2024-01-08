@@ -12,7 +12,7 @@
     "build-storybook": "storybook build"
   },
   "stackblitz": {
-    "startCommand": "yarn storybook --no-open"
+    "startCommand": "yarn storybook --no-open && sleep 1 && open http://localhost:6006?path=/docs/configure-your-project--docs"
   },
   "resolutions": {
     "jackspeak": "2.1.1"
